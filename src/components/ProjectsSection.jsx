@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "AI Resume Analyzer",
-    description: "A beautiful landing page app using React and Tailwind.",
+    description: "AI FastAPI service for resume parsing, job matching, and improvement suggestions.",
     image: "/projects/project1.png",
     tags: ["React", "FastAPI", "OpenAI"],
     demoUrl: "https://github.com/hadishah123/resume-analyzer-ai",

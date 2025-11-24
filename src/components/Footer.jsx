@@ -7,7 +7,9 @@ export const Footer = () => {
       <p className="text-sm text-muted-foreground mb-4 md:mb-0 flex items-center gap-1">
         {" "}
         &copy; {new Date().getFullYear()} Hadi Shah 
-        <Heart size={14} strokeWidth={2} className="text-red-500" />All rights reserved.
+        <Heart size={14} strokeWidth={2} className="text-red-500 transition-all duration-300
+             hover:brightness-150 
+             hover:drop-shadow-[0_0_10px_red,0_0_20px_red,0_0_30px_red]" />All rights reserved.
       </p>
       <a
         href="#home"
