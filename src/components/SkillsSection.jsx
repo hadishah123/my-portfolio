@@ -15,28 +15,33 @@ const skills = [
   { name: "Express", level: 75, category: "backend" },
   { name: "MongoDB", level: 70, category: "backend" },
   { name: "SQL", level: 70, category: "backend" },
-  // { name: "PostgreSQL", level: 65, category: "backend" },
-  // { name: "GraphQL", level: 60, category: "backend" },
-
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  // { name: "Docker", level: 70, category: "tools" },
-  // { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
-
+  { name: "CI/CD Pipelines", level: 70, category: "backend" },
+  
   // Machine Learning
   { name: "Python", level: 90, category: "ml" },
   { name: "NumPy", level: 85, category: "ml" },
   { name: "Pandas", level: 85, category: "ml" },
   { name: "Scikit-learn", level: 80, category: "ml" },
   { name: "TensorFlow", level: 70, category: "ml" },
-  // { name: "PyTorch", level: 75, category: "ml" },
-  // { name: "OpenCV", level: 65, category: "ml" },
-  { name: "Machine Learning Algorithms", level: 80, category: "ml" },
-  // { name: "Deep Learning", level: 75, category: "ml" },
-  // { name: "Data Visualization (Matplotlib/Seaborn)", level: 80, category: "ml" },
-  // { name: "Model Deployment (FastAPI/Flask)", level: 70, category: "ml" },
-  { name: "Jupyter Notebook", level: 90, category: "ml" },
+  { name: "PyTorch", level: 75, category: "ml" },
+  { name: "OpenCV", level: 65, category: "ml" },
+  { name: "Deep Learning", level: 75, category: "ml" },
+  { name: "Data Visualization (Matplotlib/Seaborn)", level: 80, category: "ml" },
+  { name: "Model Deployment (FastAPI/Flask)", level: 70, category: "ml" },
+  
+  // Tools
+  { name: "Git/GitHub", level: 90, category: "tools" },
+  { name: "Docker", level: 70, category: "tools" },
+  { name: "VS Code", level: 95, category: "tools" },
+  
+  // Additional Skills (commented out)
+  // { name: "PostgreSQL", level: 65, category: "backend" },
+  // { name: "GraphQL", level: 60, category: "backend" },
+
+  // { name: "Figma", level: 85, category: "tools" },
+  
+  // { name: "Machine Learning Algorithms", level: 80, category: "ml" },
+  // { name: "Jupyter Notebook", level: 90, category: "ml" },
 
 ];
 
