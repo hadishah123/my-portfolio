@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
 import { useEffect,useRef } from "react";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   const hasRun = useRef(false);
@@ -31,6 +32,22 @@ function App() {
   }, []);
   return (
     <>
+      <AnimatedCursor
+        innerSize={7}
+        outerSize={26}
+        color="139, 92, 246"
+        outerAlpha={0.4}
+        innerScale={0.9}
+        outerScale={4}
+        innerStyle={{
+          boxShadow: "0 0 8px rgba(139,92,246,0.6)",
+        }}
+        outerStyle={{
+          boxShadow: "0 0 25px rgba(139,92,246,0.45)",
+        }}
+        showSystemCursor={false}
+        mobileBreakpoint={768}
+      />
       <Toaster />
       <BrowserRouter>
         <Routes>
