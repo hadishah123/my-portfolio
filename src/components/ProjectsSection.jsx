@@ -3,33 +3,54 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "AI Resume Analyzer",
-    description: "AI FastAPI service for resume parsing, job matching, and improvement suggestions.",
+    title: "AI Interview Coach",
+    description:
+      "AI-powered interview preparation platform that analyzes resumes and generates personalized technical, behavioral, and project-based interview questions using Groq LLM APIs.",
     image: "/projects/project1.png",
-    tags: ["React", "FastAPI", "OpenAI"],
-    demoUrl: "https://github.com/hadishah123/resume-analyzer-ai",
-    githubUrl: "https://github.com/hadishah123/resume-analyzer-ai",
+    tags: ["Next.js", "Node.js", "FastAPI", "PostgreSQL", "Prisma", "Groq AI"],
+    demoUrl: "https://github.com/hadishah123/ai-interview-coach",
+    githubUrl: "https://github.com/hadishah123/ai-interview-coach",
   },
   {
     id: 2,
-    title: "FlashChat",
+    title: "SnackHub",
     description:
-      "Flashchat is a quick, no-signup chat app where users connect instantly with a Room ID.",
+      "Production-ready MERN food delivery platform with Firebase authentication, Razorpay payments, JWT security, and real-time order tracking.",
     image: "/projects/project2.png",
-    tags: ["React", "Express", "Socket.io"],
-    demoUrl: "https://flashchat-tsjz.onrender.com/",
-    githubUrl: "https://github.com/hadishah123/FlashChat",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Razorpay"],
+    demoUrl: "https://snackhub-nagpur.vercel.app/",
+    githubUrl: "https://github.com/hadishah123/snackhub",
   },
   {
     id: 3,
-    title: "JustDiet E-commerce",
+    title: "AI Resume Analyzer",
     description:
-      "A platform to book diet appointments, explore plans, calculate BMI, and view reviews.",
+      "AI-powered resume analysis tool that parses resumes, matches skills with job descriptions, and provides ATS-friendly improvement suggestions using NLP and LLMs.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "https://justdiet.vercel.app/",
-    githubUrl: "https://github.com/hadishah123/JustDiet",
+    tags: ["React", "FastAPI", "OpenAI", "NLP", "Python", "Machine Learning"],
+    demoUrl: "https://github.com/hadishah123/resume-analyzer-ai",
+    githubUrl: "https://github.com/hadishah123/resume-analyzer-ai",
   },
+  // {
+  //   id: 4,
+  //   title: "FlashChat",
+  //   description:
+  //     "Real-time chat application where users can instantly connect using Room IDs without signup.",
+  //   image: "/projects/project4.png",
+  //   tags: ["React", "Express", "Socket.io"],
+  //   demoUrl: "https://flashchat-tsjz.onrender.com/",
+  //   githubUrl: "https://github.com/hadishah123/FlashChat",
+  // },
+  // {
+  //   id: 5,
+  //   title: "JustDiet E-commerce",
+  //   description:
+  //     "Platform for booking diet consultations, exploring plans, calculating BMI, and managing appointments.",
+  //   image: "/projects/project5.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "https://justdiet.vercel.app/",
+  //   githubUrl: "https://github.com/hadishah123/JustDiet",
+  // },
 ];
 
 export const ProjectsSection = () => {
