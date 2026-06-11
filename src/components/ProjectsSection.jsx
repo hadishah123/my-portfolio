@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "SnackHub",
     description:
-      "Production-ready MERN food delivery platform with Firebase authentication, Razorpay payments, JWT security, and real-time order tracking.",
+  "Production-ready MERN food delivery platform with Firebase authentication, Razorpay payment integration, JWT-based authorization, real-time order tracking with user and admin dashboards.",
     image: "/projects/project2.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Razorpay"],
     demoUrl: "https://snackhub-nagpur.vercel.app/",
